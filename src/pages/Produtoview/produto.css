@@ -1,0 +1,68 @@
+#content-main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    gap: 10px;
+}
+#item {
+    display: flex;
+    flex-direction: column;
+}
+#item span, strong{
+    color: white;
+}
+#btn-maisdetails{
+    cursor: pointer;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.modaldetails {
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.modaldetails strong{
+    color: black;
+}
+.modaldetails #btnclosedetails{
+    border: 0;
+    background-color: transparent;
+    font-size: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#closemodaldetails{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#addcarrinho{
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    font-size: 17px;
+    height: 50px;
+    border-radius: 5px;
+    width:50%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#addcarrinho:hover{
+    background-color: black;
+    color: white;
+}

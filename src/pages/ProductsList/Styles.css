@@ -1,0 +1,16 @@
+.list-products {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.side-product {
+  display: flex;
+  width: 100%;
+}
+
+.side-product input,
+.input-number {
+  width: 72%;
+}
